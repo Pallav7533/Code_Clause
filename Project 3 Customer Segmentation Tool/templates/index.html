@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tool</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Customer segmentation Tool</h1>
+    <form action="/cluster" method="post" enctype="multipart/form-data">
+        <label for="file">Choose a .CSV file: </label>
+        <br>
+        <br>
+        <input type="file" id="file" name="file" required>
+        <br>
+        <br>
+        
+        <button type="submit">Cluster The Data</button>
+    </form>
+</body>
+</html>
