@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4a5c4a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: #020402;
+}
+
+#result {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
