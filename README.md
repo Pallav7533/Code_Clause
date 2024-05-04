@@ -1,7 +1,7 @@
-## Internship Projects
+# Internship Projects
 
-# Project:1 Predicting House Prices
+## Project:1 Predicting House Prices
 
-# Project:2 Customer lifetime value Prediction
+## Project:2 Customer lifetime value Prediction
 
-# Project:3 Customer segmentation tool
+## Project:3 Customer segmentation tool
